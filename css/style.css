@@ -1,0 +1,1057 @@
+*
+{
+	margin: auto;
+	font-family: arial;
+}
+.header
+{
+	height: 130px;
+	width: 100%;
+	background-color: #003b95;
+}
+.head1
+{
+	height: 130px;
+	width: 54%;
+	float: left;
+/*	background-color: brown;*/
+}
+.head2
+{
+	height: 130px;
+	width: 46%;
+	float: left;
+/*	background-color: purple;*/
+}
+.head1 a 
+{
+	color: white;
+	text-decoration: none;
+}
+.head1 a h2 
+{
+	font-weight: bold;
+	padding-top: 3%;
+	padding-left: 18%;
+}
+.head1 ul
+{
+	list-style: none;
+	padding-top: 4%;
+	margin-left: 37px;
+}
+.head1 ul li 
+{
+	display: inline;
+	padding-left: 55px;
+}
+.head1 ul li a 
+{
+	text-decoration: none;
+}
+.head2 pre 
+{
+	padding-left: 2%;
+	font-size: 18px;
+	margin-top: 3%;
+}
+.head2 pre a 
+{
+	text-decoration: none;
+	color: white ;
+}
+
+.head2 button
+{
+	height: 30px;
+	width: 70px;
+	color: #006ce4;
+	background-color: white;
+	border: none;
+	font-weight: bold;
+	border-radius: 3px;
+}
+.head2 button:hover
+{
+	background-color: #aac7f3;
+	
+}
+.home
+{
+	height: 435px;
+	width: 100%;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/xphoto/2880x868/289172913.jpeg?k=3a9e28afbe83e1eb68417a383c77dd434ec7d5401df6c6cd08311aab5448ca8a&o=');
+	background-size: 100% 100%;
+}
+.home p
+{
+	color: white;
+	font-size: 20px;
+	padding-top: 3%;
+	padding-left: 10%;
+}
+.home h1
+{
+	color: white;
+	font-size: 48px;
+	padding-left: 10%;
+	padding-top: 2%;
+}
+.home h3
+{
+	color: white;
+	font-size: 23px;
+	padding-left: 10%;
+	font-weight: lighter;
+	padding-top: 15px;
+	line-height: 35px;
+}
+.home button
+{
+	height: 49px;
+	width: 130px;
+	margin-left: 10%;
+	margin-top: 20px;
+	font-weight: 600;
+	background-color: #006ce4;
+	border: none;
+	color: white;
+	font-size: 14px;
+	border-radius: 5px;
+}
+.searchbox
+{
+	height: 65px;
+	width: 78%;
+	background-color: white;
+	margin-top: -34px;
+	float: left ;
+	margin-left: 10%;
+	border-radius: 5px;
+	border: 4px solid #fcbf23; 
+}
+.srchbox1
+{
+	height: 65px;
+	width: 34%;
+/*	background-color: green;*/
+	float: left;
+	border: 2px solid #fcbf23;
+	border-radius: 5px;
+}
+.srchbox1 p
+{
+	padding-left: 8%;
+	padding-top: 7%;
+}
+.srchbox2
+{
+	height: 65px;
+	width: 30%;
+/*	background-color: red;*/
+	float: left;
+	border: 2px solid #fcbf23;
+	border-radius: 5px;
+}
+.srchbox2 p
+{
+	padding-left: 8%;
+	padding-top: 7%;	
+}
+.srchbox3
+{
+	height: 65px;
+	width: 35%;
+/*	background-color: purple;*/
+	float: left;
+	border-radius: 5px;
+	
+}
+.srchbox3 .sec1
+{
+	height: 65px;
+	width: 68.92%;
+/*	background-color: brown;*/
+	float: left;
+	border: 2px solid #fcbf23;
+	border-radius: 5px;
+}
+/*.srchbox3 .sec2
+{
+	height: 65px;
+	width: 30%;
+	background-color: yellow;
+	float: left;
+}*/
+.gallery
+{
+	height: 420px;
+	width: 100%;
+/*	background-color: pink;*/
+}
+.gallery input[type=checkbox] 
+{
+margin: 4px 0 0;
+line-height: normal;
+width: 20px;
+height: 20px;
+}
+.gallery .galbox1
+{
+	height: 190px;
+	width: 510px;
+	background-color: #ffffff;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10%;
+	border-radius: 15px;
+	border: none;
+	box-shadow: 1px 2px 8px 0px lightgrey;
+}
+.gallery .galbox1 .offersec1
+{
+	height: 190px;
+	width: 65%;
+/*	background-color: green;*/
+	float: left;
+	border-bottom-left-radius: 15px ;
+	border-top-left-radius: 15px;
+}
+.gallery .galbox1 .offersec2
+{
+	height: 190px;
+	width: 35%;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/xphoto/500x500/289365106.jpeg?k=ed4234d8631acfa556b00c64a6e1f5c3e53ed39c679d421d88fcdedaa4e78e1c&o=');
+	background-size: 100% 100%;
+	float: left;
+	border-bottom-right-radius:15px ;
+	border-top-right-radius: 15px;
+	border:none;
+}
+.gallery .galbox2
+{
+	height: 190px;
+	width: 510px;
+	background-color: #ffffff;
+	float: left;
+	margin-top: 10px;
+	margin-left: 1%;
+	border-radius: 15px;
+	border: none;
+	box-shadow: 1px 2px 8px 0px lightgrey;
+}
+.gallery .galbox2 .offercar1
+{
+	height: 190px;
+	width: 65%;
+/*	background-color: green;*/
+	float: left;
+	border-bottom-left-radius: 15px ;
+	border-top-left-radius: 15px;	
+}
+.gallery .galbox2 .offercar2
+{
+	height: 190px;
+	width: 35%;
+	background-image: url('https://r-xx.bstatic.com/xdata/images/xphoto/500x500/289358819.jpeg?k=17fffb50f4065595ef317bbf9f0212273be92b34edc529ced163998e94705b20&o=');
+	background-size: 100% 100%;
+	float: left;
+	border-bottom-right-radius:15px ;
+	border-top-right-radius: 15px;
+	border:none;
+}
+.blkfrideal
+{
+	height: 475px;
+	width: 100%;
+/*	background-color: blue;*/
+	float: left;
+}
+.blkfrideal ul 
+{
+	list-style: none;
+	padding-left: 8%;
+	padding-top: 15px;
+}
+.blkfrideal ul li
+{
+	display: inline;
+	margin-left: 3%;
+	padding-top: 70px;
+}
+.blkfrideal ul li a 
+{
+	text-decoration: none;
+	color: black;
+}
+.gallery .blkfrideal .dealsec
+{
+	height: 300px;
+	width: 76%;
+/*	background-color: red;*/
+	float: left;
+	margin-left: 10%;
+	margin-top: 20px;
+}
+.gallery .blkfrideal .dealsec .dubai
+{
+	height: 300px;
+	width: 25%;
+/*	background-color: brown;*/
+	float: left;
+}
+.gallery .blkfrideal .dealsec .dubai .dubaisec1
+{
+	height: 207px;
+	width: 100%;
+	border-radius: 10px;
+	background-image: url('https://r-xx.bstatic.com/xdata/images/city/526x420/977220.jpg?k=ee4b7b42c35b8cbf09c8ddb7630092b40cd706fec153c41904ed6e252a883938&o=');
+	background-size: 100% 100%;
+}
+.gallery .blkfrideal .dealsec .dubai .dubaisec2
+{
+	height: 91px;
+	width: 100%;
+/*	background-color: yellow;	*/
+}
+
+.gallery .blkfrideal .dealsec .baku
+{
+	height: 300px;
+	width: 23%;
+/*	background-color: brown;*/
+	float: left;
+	margin-left: 2%;
+}
+.gallery .blkfrideal .dealsec .baku .bakusec1
+{
+	height: 207px;
+	width: 100%;
+	border-radius: 10px;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/city/526x420/688198.jpg?k=4c74414a6ed76b016e62cf8b6000ef785280f98c55fb835d2206d8efdc8ef724&o=');
+	background-size: 100% 100%;
+}	
+.gallery .blkfrideal .dealsec .baku .bakusec2
+{
+	height: 91px;
+	width: 100%;
+/*	background-color: yellow;*/
+}
+
+.gallery .blkfrideal .dealsec .sharjah
+{
+	height: 300px;
+	width: 23%;
+/*	background-color: brown;*/
+	float: left;
+	margin-left: 2%;
+}
+.gallery .blkfrideal .dealsec .sharjah .sharjahsec1
+{
+	height: 207px;
+	width: 100%;
+	border-radius: 10px;
+	background-image: url('https://r-xx.bstatic.com/xdata/images/city/526x420/654879.jpg?k=c9442fbe99d085bbb43087b06d4710d1e6a8fc6caf692ae46718ade5090d9775&o=');
+	background-size: 100% 100%;
+}
+.gallery .blkfrideal .dealsec .sharjah .sharjahsec2
+{
+	height: 91px;
+	width: 100%;
+/*	background-color: yellow;*/
+}
+.gallery .blkfrideal .dealsec .lahore
+{
+	height: 300px;
+	width: 23%;
+/*	background-color: brown;*/
+	float: left;
+	margin-left: 2%;
+}
+.gallery .blkfrideal .dealsec .lahore .lahoresec1
+{
+	height: 207px;
+	width: 100%;
+	border-radius: 10px;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/city/526x420/688249.jpg?k=42442ea62b97c8d6b57b4b6171b406e6778a9b160b4ce0c69f53726b397c7d3e&o=');
+	background-size: 100% 100%;
+}
+.gallery .blkfrideal .dealsec .lahore .lahoresec2
+{
+	height: 91px;
+	width: 100%;
+/*	background-color: yellow;*/
+}
+.property
+{
+	height: 318px;
+	width: 100%;
+/*	background-color: red;*/
+	float: left;
+}
+.property h2 
+{
+	padding-top: 2%;
+	padding-left: 10%;
+}
+.property .propertybox
+{
+	height: 250px;
+	width: 77%;
+	margin-left: 10%;
+/*	background-color: blue;*/
+	float: left;
+	margin-top: 1%;
+}
+.propertybox .hotel
+{
+	height: 250px;
+	width: 25%;
+/*	background-color: brown;*/
+	float: left;
+}	
+.propertybox .hotel .hotelpic
+{
+	height: 210px;
+	width: 100%;
+	border-radius: 10px;
+	background-image: url('https://r-xx.bstatic.com/xdata/images/xphoto/263x210/57584488.jpeg?k=d8d4706fc72ee789d870eb6b05c0e546fd4ad85d72a3af3e30fb80ca72f0ba57&o=');
+	background-size: 100% 100%;
+} 
+.propertybox .apartment
+{
+	height: 250px;
+	width: 23%;
+/*	background-color: brown;*/
+	float: left;
+	margin-left: 2%;
+}
+.propertybox .apartment .apartpic
+{
+	height: 210px;
+	width: 100%;
+	background-image: url('https://r-xx.bstatic.com/xdata/images/hotel/263x210/119467716.jpeg?k=f3c2c6271ab71513e044e48dfde378fcd6bb80cb893e39b9b78b33a60c0131c9&o=');
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+.propertybox .resort
+{
+	height: 250px;
+	width: 23%;
+/*	background-color: brown;*/
+	float: left;
+	margin-left: 2%;
+}
+.propertybox .resort .resortpic
+{
+	height: 210px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/xphoto/263x210/45450084.jpeg?k=f8c2954e867a1dd4b479909c49528531dcfb676d8fbc0d60f51d7b51bb32d1d9&o=');
+}
+.propertybox .vilas
+{
+	height: 250px;
+	width: 23%;
+/*	background-color: brown;*/
+	float: left;
+	margin-left: 2%;
+}
+.propertybox .vilas .vilaspic
+{
+	height: 210px;
+	width: 100%;
+	background-image: url('https://r-xx.bstatic.com/xdata/images/hotel/263x210/100235855.jpeg?k=5b6e6cff16cfd290e953768d63ee15f633b56348238a705c45759aa3a81ba82b&o=');
+	background-size: 100% 100%; 
+	border-radius: 10px;
+}
+.destination
+{
+	height: 638px;
+	width: 100%;
+/*	background-color: red;*/
+	float: left;
+}
+.destination h2
+{
+	padding-left: 10%;
+	padding-top: 2%;
+}
+.destination .destsec1
+{
+	height: 280px;
+	width: 100%;
+/*	background-color: pink;*/
+	margin-top: 1%;
+}
+.destination .destsec1 .lahore
+{
+	height: 270px;
+	width: 38%;
+	margin-left: 10%;
+	background-image: url('https://cf.bstatic.com/xdata/images/city/600x600/688249.jpg?k=42442ea62b97c8d6b57b4b6171b406e6778a9b160b4ce0c69f53726b397c7d3e&o=');
+	float: left;
+	background-size: 120% 120%;
+	background-position: center;
+	border-radius: 10px;
+}
+ .destination .destsec1 .islamabad
+{
+	height: 270px;
+	width: 38%;
+	background-image: url('https://cf.bstatic.com/xdata/images/city/600x600/724981.jpg?k=d2a74ca55c128d783c4a6836713abe2ef7874ba2cc276b9f671df017ff24da19&o=');
+	background-size: 120% 120%;
+	background-position: center;
+	float: left;
+	margin-left: 2%;
+	border-radius: 10px;
+}
+.destination .destsec2
+{
+	height: 280px;
+	width: 100%;
+/*	background-color: blue;*/
+	float: left;
+}
+.destination .destsec2 .dubai
+{
+	height: 260px;
+	width: 24.6%;
+	background-image: url('https://cf.bstatic.com/xdata/images/city/600x600/977220.jpg?k=ee4b7b42c35b8cbf09c8ddb7630092b40cd706fec153c41904ed6e252a883938&o=');
+	float: left;
+	margin-left: 10%;
+	margin-top: 1%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+}
+.destination .destsec2 .karachi
+{
+	height: 260px;
+	width: 24.6%;
+	background-image: url('https://cf.bstatic.com/xdata/images/city/600x600/640442.jpg?k=90687d20998ee01829027c5e6396a0b8c6d9198bb76bd5ffc7c49c5b779e18ae&o=');
+	background-size: 100% 100%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 1%;
+	border-radius: 10px;
+}
+.destination .destsec2 .makkah
+{
+	height: 260px;
+	width: 24.6%;
+	background-image: url('https://cf.bstatic.com/xdata/images/city/600x600/688591.jpg?k=9a550fedccb750cfa3f2e8eaf507287d4007f21def68e6566cc00b200946e876&o=');
+	background-size: 100% 100%;
+	float: left;
+	margin-left: 2%;
+	margin-top: 1%;
+	border-radius: 10px;
+}
+.explore
+{
+	height: 288px;
+	width: 100%;
+/*	background-color: red;*/
+	float: left;
+	margin-top: 2%;
+}
+.explore h2
+{
+	padding-left: 10%;
+	padding-top: 1.5%;
+}
+.explore .explbox
+{
+/*	background-color: black;*/
+	height: 200px;
+	width: 78%;
+	float: left;
+	margin-top: 1%;
+	margin-left: 10%;
+}
+.explore .explbox .islamabad
+{
+	height: 200px;
+	width: 15%;
+/*	background-color: blue;*/
+	float: left;
+}
+.explore .explbox .islamabad .islampic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/city/170x136/724981.jpg?k=d2a74ca55c128d783c4a6836713abe2ef7874ba2cc276b9f671df017ff24da19&o=');
+	
+}
+.explore .explbox .lahore
+{
+	height: 200px;
+	width: 15%;
+/*	background-color: blue;*/
+	float: left;
+	margin-left: 2%;
+}
+.explore .explbox .lahore .lahorepic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://r-xx.bstatic.com/xdata/images/city/170x136/688249.jpg?k=42442ea62b97c8d6b57b4b6171b406e6778a9b160b4ce0c69f53726b397c7d3e&o=');
+}
+.explore .explbox .karachi
+{
+	height: 200px;
+	width: 15%;
+/*	background-color: blue;*/
+	float: left;
+	margin-left: 2%;	
+}
+.explore .explbox .karachi .karachipic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/city/170x136/640442.jpg?k=90687d20998ee01829027c5e6396a0b8c6d9198bb76bd5ffc7c49c5b779e18ae&o=');
+}
+.explore .explbox .muree
+{
+	height: 200px;
+	width: 15%;
+/*	background-color: blue;*/
+	float: left;	
+	margin-left: 2%;
+}
+.explore .explbox .muree .mureepic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/country/170x136/364.jpg?k=e1060912bc701eda5db297a286037d2b2e3898e34362d7d22d8b754a260ea2fc&o=');
+}
+.explore .explbox .nathia
+{
+	height: 200px;
+	width: 15%;
+/*	background-color: blue;*/
+	float: left;	
+	margin-left: 2%;
+}
+.explore .explbox .nathia .nathiapic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://q-xx.bstatic.com/xdata/images/country/170x136/364.jpg?k=e1060912bc701eda5db297a286037d2b2e3898e34362d7d22d8b754a260ea2fc&o=');
+}
+.explore .explbox .rawalpindi
+{
+	height: 200px;
+	width: 15%;
+/*	background-color: blue;*/
+	float: left;	
+	margin-left: 2%;
+}
+.explore .explbox .rawalpindi .rawalpindipic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image:url('https://q-xx.bstatic.com/xdata/images/city/170x136/633457.jpg?k=3ad8da46014cdb4e1c32103af31901b257218fc4c19395e1bafca75e000f0897&o=') ;
+}
+.quick
+{
+	height: 340px;
+	width: 100%;
+/*	background-color: green;*/
+	float: left;
+}
+.quick h2 
+{
+	padding-left: 10%;
+	padding-top: 1.5%;
+}
+.quick ul 
+{
+	list-style: none;
+	padding-left: 8%;
+	padding-top: 2%;
+}
+.quick ul li
+{
+	display: inline;
+	margin-left: 2%;
+	padding-top: 70px;
+}
+.quick ul li a 
+{
+	text-decoration: none;
+	color: black;
+}
+.quick .quickbox
+{
+	height: 200px;
+	width: 25%;
+/*	background-color: yellow;*/
+	float: left;
+	margin-top: 1.5%;
+	margin-left: 10%;
+}
+.quick .quickbox .karachi
+{
+	height: 200px;
+	width: 47%;
+/*	background-color: blue;*/
+	float: left;	
+}
+.quick .quickbox .karachi .karachipic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://cf.bstatic.com/xdata/images/xphoto/300x240/140010768.jpg?k=dd92ee98046baa40f9a4a83573bb8c812dd3c37b8d3160dbed4ecc52738c68fe&o=');
+}
+.quick .quickbox .lahore
+{
+	height: 200px;
+	width: 47%;
+/*	background-color: blue;*/
+	float: left;
+	margin-left: 6%;	
+}
+.quick .quickbox .lahore .lahorepic
+{
+	height: 150px;
+	width: 100%;
+	background-size: 100% 100%;
+	border-radius: 10px;
+	background-image: url('https://cf.bstatic.com/xdata/images/xphoto/300x240/140010767.jpg?k=ee1dbb7a4652acf5dd46ea4e58d1259d1aa3d60cac116f9ce4e43ce7d94753b0&o=');
+}	
+.trip
+{
+	height: 450px;
+	width: 100%;
+/*	background-color: lightpink;*/
+	float: left;
+}
+.trip h2
+{
+	padding-left: 10%;
+	padding-top: 2%;
+}
+.tripbox
+{
+	height: 380px;
+	width: 80%;
+/*	background-color: red;*/
+	float: left;
+	margin-top: 1%;
+	margin-left: 10%;
+}
+.trip .tripbox .tripsec1
+{
+	height: 380px;
+	width: 49%;
+/*	background-color: lightblue;*/
+	float: left;
+	background-image: url('https://cf.bstatic.com/xdata/images/xphoto/1920x1080/292260574.webp?k=efc8e339ea66514c3b64c5bc891f1608d22a40eb23b853bc0c9ecb93c541ef10&o=');
+	background-size: 100% 100%;
+	transition-duration: 1s;
+	background-position: center;
+	border-radius: 10px;
+}
+.trip .tripbox .tripsec1:hover
+{
+	background-size: 120% 120%;
+	transition-duration: 1s;
+}
+.trip .tripbox .tripsec2
+{
+	height: 380px;
+	width: 49%;
+/*	background-color: lightblue;*/
+	float: left;
+	margin-left: 2%;
+}
+.trip .tripbox .tripsec2 .christmas
+{
+	height: 380px;
+	width: 48%;
+/*	background-color: yellow;*/
+	float: left;
+}
+.trip .tripbox .tripsec2 .christmaspic
+{
+	height: 250px;
+	width: 100%;
+	background-image: url('https://cf.bstatic.com/xdata/images/xphoto/540x405/290483794.webp?k=916f7bac0ccdb08efcb269ad29cc10816ab66cd1671359066d23d32fb17b5c39&o=');
+	background-size: 120% 120%;
+	border-radius: 10px;
+	background-position: center;
+
+}
+.trip .tripbox .tripsec2 .london
+{
+	height: 380px;
+	width: 48%;
+/*	background-color: yellow;*/
+	float: left;
+	margin-left: 4%;
+}
+.trip .tripbox .tripsec2 .londonpic
+{
+	height: 250px;
+	width: 100%;
+	background-image: url('https://cf.bstatic.com/xdata/images/xphoto/540x405/289320924.webp?k=99a00f2907495aaeb6396695c053e3d8b95fb05619b10e76c89fb1f7d1fec427&o=');
+	background-size: 120% 120%;
+	background-position: center;
+	border-radius: 10px;
+}
+.news
+{
+	height: 220px;
+	width: 100%;
+	background-color: #00224f;
+	float: left;
+}
+.list 
+{
+	height: 58px;
+	width: 100%;
+	background-color: #003b95;
+	float: left;
+}
+.mob
+{
+	height: 43px;
+	width: 100%;
+	background-color: #003b95;
+	float: left;
+	margin-top: 1px;
+}
+.mob a 
+{
+	color: white;
+}
+.footer
+{
+	height: 422px;
+	width: 100%;
+/*	background-color: red;*/
+	float: left;
+}
+.footer .ft1
+{
+	height: 422px;
+	width: 20%;
+/*	background-color: green;*/
+	float: left;
+}
+.footer .ft1 ul
+{
+	list-style: none;
+	padding-top: 5%;
+}
+.footer .ft1 ul li
+{
+	margin-left: 40%;
+	line-height: 25px;
+}
+.footer .ft1 ul li a 
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: #006ce4;
+}
+.footer .ft1 ul li a:hover
+{
+	color: #FFEB3B;
+}
+.footer .ft2
+{
+	height: 422px;
+	width: 20%;
+/*	background-color: royalblue;*/
+	float: left;
+}
+.footer .ft2 ul
+{
+	list-style: none;
+	padding-top: 5%;
+}
+.footer .ft2 ul li
+{
+	margin-left: 23%;
+	line-height: 25px;
+}
+.footer .ft2 ul li a 
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: #006ce4;
+}
+.footer .ft2 ul li a:hover
+{
+	color: #FFEB3B;
+}
+.footer .ft3
+{
+	height: 422px;
+	width: 20%;
+/*	background-color: yellow;*/
+	float: left;
+}
+.footer .ft3 ul
+{
+	list-style: none;
+	padding-top: 5%;
+}
+.footer .ft3 ul li
+{
+/*	margin-left: %;*/
+	line-height: 25px;
+}
+.footer .ft3 ul li a 
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: #006ce4;
+}
+.footer .ft3 ul li a:hover
+{
+	color: #FFEB3B;
+}
+.footer .ft4
+{
+	height: 422px;
+	width: 20%;
+/*	background-color: brown;*/
+	float: left;
+}
+.footer .ft4 ul
+{
+	list-style: none;
+	padding-top: 5%;
+}
+.footer .ft4 ul li
+{
+	margin-left: -18%;
+	line-height: 25px;
+}
+.footer .ft4 ul li a 
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: #006ce4;
+}
+.footer .ft4 ul li a:hover
+{
+	color: #FFEB3B;
+}
+.footer .ft5
+{
+	height: 422px;
+	width: 20%;
+/*	background-color: green;*/
+	float: left;
+}
+.footer .ft5 ul
+{
+	list-style: none;
+	padding-top: 5%;
+}
+.footer .ft5 ul li
+{
+	margin-left: -35%;
+	line-height: 25px;
+}
+.footer .ft5 ul li a 
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: #006ce4;
+}
+.footer .ft5 ul li a:hover
+{
+	color: #FFEB3B;
+}
+.copyright
+{
+	height: 160px;
+	width: 100%;
+/*	background-color: red;*/
+	float: left;
+}
+.copyright .pic
+{
+	height: 67px;
+	width: 100%;
+/*	background-color: green;*/
+}
+ .copyright .pic .box1
+{
+
+	height: 40px;
+	width:110px;
+/*	background-color: yellow;*/
+	float: left;
+	margin-left: 24%;
+	margin-top: 25px;
+}
+.copyright .pic .box2
+{
+
+	height: 40px;
+	width:110px;
+/*	background-color:black;*/
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.copyright .pic .box3
+{
+
+	height: 40px;
+	width:110px;
+/*	background-color: brown;*/
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.copyright .pic .box4
+{
+
+	height: 40px;
+	width:110px;
+/*	background-color: purple;*/
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.copyright .pic .box5
+{
+
+	height: 40px;
+	width:110px;
+/*	background-color: hotpink;*/
+	float: left;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.copyright .pic .box6
+{
+
+	height: 40px;
+	width:110px;
+/*	background-color: blueviolet;*/
+	float: left;
+	margin-left: 10px;
+	margin-top: 25px;
+}
